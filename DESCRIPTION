@@ -1,0 +1,11 @@
+Package: srtmtools
+Type: Package
+Title: SRTM tools 
+Version: 2013-00.0.1
+Date: 2013-05-20
+Author: Steffen Kriewald
+Maintainer: Steffen Kriewald <kriewald@pik-potsdam.de>
+Depends: raster, rgdal, png, classInt, R (>= 2.14.0) 
+Description: resample high resolution data to a given low resolution, C-code rewritten, area optional, croping introduced... This package provides an implementation of the city clustering algorithm for computing potential flooded land. Furthermore the SRTM data can be downloaded and a specific region can be extracted.
+License: GPL
+Packaged: 2013-0-21 10:16:04 UTC; steffen

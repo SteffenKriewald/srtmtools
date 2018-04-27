@@ -1,0 +1,4 @@
+useDynLib(srtmtools)
+importFrom("raster", merge)
+export(cca,cca.single,srtm.download, srtm.list, srtm.region, srtm.slr, srtm.trim, coord, sample, raster.to.png)
+
